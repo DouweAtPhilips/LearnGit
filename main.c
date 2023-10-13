@@ -3,7 +3,9 @@
 
 int main(void)
 {
-	printf("Hello\n");
-	
+	for(uint8_t i=0; i<10; i++)
+	{
+		printf("Hello\n");
+	}
 	return 1;
 }
